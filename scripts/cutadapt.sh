@@ -9,13 +9,13 @@
 #SBATCH --error=cutadapt_%j.err
 
   # This is where your trimmed reads will be stored
-OUTPUT_DIR=/data/cnm/ivi/avb/micros_marathon/trim
+OUTPUT_DIR=/data/obk/microRNAs/trim
   
   # This is where your fastqc of your trimmed and untrimmed reads will be stored
-OUTPUT_DIR_FASTQC=/data/cnm/ivi/avb/micros_marathon/fastqc
+OUTPUT_DIR_FASTQC=/data/obk/microRNAs/fastqc
 
-  # This is where your raw reads will be stored
-INPUT_DIR=/data/cnm/ivi/avb/secuencias
+  # This is where your raw reads are stored
+INPUT_DIR=/data/obk/microRNAs/raw
 
   # This is your adapter sequence
 ADAPTERS="TGGAATTCTCGG"
