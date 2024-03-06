@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 #SBATCH --job-name="cutadapt"
 #SBATCH --chdir=.
 #SBATCH --partition=middle_obx
